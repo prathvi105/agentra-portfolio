@@ -886,7 +886,7 @@ function submitForm(){
   // Telegram Notification
 const TOKEN = "8507143568:AAG1PW4f1ybKiX9Pw2K6ZA4R9fDEdCaHWLk";
 const CHAT_ID = "8023326297";
-const msg = 🔥 New Lead!\n👤 Naam: ${n}\n🏢 Company: ${c}\n📞 Phone: ${p}\n🏭 Industry: ${i};
+const msg = '🔥 New Lead!\n👤 Naam: ${n}\n🏢 Company: ${c}\n📞 Phone: ${p}\n🏭 Industry: ${i}';
 
 fetch(https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${encodeURIComponent(msg)});
 }
